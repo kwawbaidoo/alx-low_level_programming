@@ -17,13 +17,13 @@ int main(void)
 			putchar(first_digit + '0');
 			putchar(second_digit + '0');
 
-		if(first_digit < 8)
+		if (first_digit < 8)
 		{
 			putchar(',');
 			putchar(' ');
 		}
 
-		}	
+		}
 	}
 	putchar('\n');
 
