@@ -1,37 +1,37 @@
-	 #include <stdio.h>
+#include <stdio.h>
 
-	/**
-     	* main - print all possible combinations of three digit
-	*
-	* Return: 0
-	*/
-     int main(void)
+/**
+ * main - Print combinations of three digit numbers
+ *
+ * Return: 0
+ */
+int main(void)
+{
+	int first;
+	int second;
+	int third;
+
+	for (first = 0; first <= 9; first++)
 	{
-	  	int first_digit;
-		int second_digit;
-		int third_digit;
-
-	for (first_digit = 0; first_digit <= 8; first_digit++)
-	    {
-		for (second_digit = first_digit + 1; second_digit <= 9;
-		 	second_digit++)
-		   {
-	 		for (third_digit = second_digit + 1; third_digit <= 				9; third_digit++)
+		for (second = first + 1; second <= 9; second++)
+		{
+			for (third = second + 1; third <= 9; third++)
 			{
-			    putchar(first_digit + '0');
- 			    putchar(second_digit + '0');
-			    putchar(third_digit + '0');
-			}
+				putchar(first + '0');
+				putchar(second + '0');
+				putchar(third + '0');
 
-			if (first_digit < 8)
-			{
-			    putchar(',');
-			    putchar(' ');
+				if (first < 8)
+				{
+					putchar(',');
+					putchar(' ');
+				}
+
 			}
- 		    }
- 	      }
-		putchar('\n');
-		
-		return (0);
-	 }
+		}
+	}
+	putchar('\n');
+
+	return (0);
+}
 
