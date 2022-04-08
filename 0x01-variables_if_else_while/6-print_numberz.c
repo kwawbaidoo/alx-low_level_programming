@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - print all single digit numbers
  *
