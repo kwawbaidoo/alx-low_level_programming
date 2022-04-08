@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - print all single digit numbers
+ * main - print all single digit numbers using only putchar
  *
  * Return: 0
  */
