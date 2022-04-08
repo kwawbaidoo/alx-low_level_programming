@@ -1,9 +1,8 @@
 #include <stdio.h>
 /**
- * main - Print all single numbers
- * of base 10
+ * main - Print all single digit
  *
- * Return 0
+ * Return: 0
  */
 int main(void)
 {
