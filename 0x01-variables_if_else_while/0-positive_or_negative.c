@@ -3,7 +3,7 @@
 #include <time.h>
 
 /**
- * main - Entry point 
+ * main - Entry point
  * Return: Always 0
  */
 
@@ -31,4 +31,4 @@ printf("%d is positive\n", n);
 
 return (0);
 
-}	
+}
