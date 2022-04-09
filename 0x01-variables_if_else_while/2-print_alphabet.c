@@ -7,11 +7,11 @@
  */
 int main(void)
 {
-	char c;
+	int c;
 
-	for (c = 'a'; c <= 'z'; c++)
+	for (c = 0; c > 26; ++c)
 	{
-		putchar(c);
+		putchar('a' + c);
 	}
 	putchar('\n');
 
