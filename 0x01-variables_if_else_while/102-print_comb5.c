@@ -9,6 +9,7 @@ int main(void)
 {
 	int tens;
 	int ones;
+
 	for (tens = 0; tens <= 98; tens++)
 	{
 		for (ones = ones + 1; ones <= 99; ones++)
