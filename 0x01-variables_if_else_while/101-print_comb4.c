@@ -21,12 +21,14 @@ int main(void)
 				putchar(third + '0');
 				putchar(',');
 
-				if (first <= 9)
+				if (first <= 8)
 				{
 					putchar(' ');
 				}
 			}
 		}
 	}
+	putchar('\n');
+
 	return (0);
 }
