@@ -17,13 +17,12 @@ int main(void)
 		putchar(tens + '0');
 		putchar(ones + '0');
 
-		if (!(tens == 9 && ones == 9 ))
+		if (!(tens == 9 && ones == 9))
 		{
 		putchar(',');
 		putchar(' ');
 		}
 	}
 	}
-	
 	return (0);
 }
