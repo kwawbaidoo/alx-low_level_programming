@@ -9,7 +9,6 @@ int main(void)
 {
 	int tens;
 	int ones;
-	
 	for (tens = 0; tens <= 98; tens++)
 	{
 		for (ones = ones + 1; ones <= 99; ones++)
@@ -23,7 +22,7 @@ int main(void)
 			if (tens == 98 && ones == 99)
 				continue;
 			putchar(',');
-			putchar('\n');
+			putchar(' ');
 		}
 	}
 	putchar('\n');
