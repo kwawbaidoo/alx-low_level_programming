@@ -2,19 +2,19 @@
 
 /**
  * print_times_table - prints times table
- * @x : the value of thr times table to be printed
+ * @n : the value of thr times table to be printed
  *
  */
-void print_times_table(int x)
+void print_times_table(int n)
 {
 	int a = 0, rep, b;
 	
-	if (x < 0 || x > 15)
+	if (n < 0 || x > 15)
 		return;
 
 	while (a <= x)
 	{
-		for (b = 0; b <= x; b++)
+		for (b = 0; b <= n; b++)
 		{
 			rep = a * b;
 			if (a == 0)
@@ -39,7 +39,7 @@ void print_times_table(int x)
 				_putchar('0' + rep % 10);
 			}
 
-			if (b < x)
+			if (b < n)
 			{
 				_putchar(',');
 				_putchar(' ');
