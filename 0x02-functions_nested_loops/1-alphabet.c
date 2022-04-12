@@ -4,11 +4,11 @@
  * main -entry point
  * print_alphabet - entry point
  *
- * Return: Always
+ * Return: Always 0
  */
 
 /**
- * print_alphabet - Print "alphabet"
+ * print_alphabet() - Print "alphabet"
  */
 
 void print_alphabet(void)
