@@ -19,5 +19,5 @@ void print_to_98(int a)
 		a--;
 	}
 	printf("98");
-	printf('\n');
+	putchar('\n');
 }
