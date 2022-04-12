@@ -8,9 +8,7 @@
  */
 
 /**
- * print_alphabet - print alphabet in lower case
- * 
- * Return: 0
+ * print_alphabet - Print "alphabet"
  */
 
 void print_alphabet(void)
