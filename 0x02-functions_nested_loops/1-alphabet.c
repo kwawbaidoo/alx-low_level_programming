@@ -4,7 +4,7 @@
  * main -entry point
  * Description: print_alphabet - print alphabet lowercase
  *
- * Return: 0
+ * Return: Always
  */
 
 void print_alphabet(void)
