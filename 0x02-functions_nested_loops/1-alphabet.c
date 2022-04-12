@@ -2,6 +2,7 @@
 
 /**
  * main -entry point
+ * Description: print alphabet in lower case
  * Return: 0
  */
 void print_alphabet(void)
