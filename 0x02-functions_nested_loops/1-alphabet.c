@@ -3,6 +3,7 @@
 /**
  * main -entry point
  * print_alphabet - print alphabet lowercase
+ *
  * Return: 0
  */
 void print_alphabet(void)
