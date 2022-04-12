@@ -5,6 +5,7 @@
  * @n : the value of thr times table to be printed
  *
  */
+
 void print_times_table(int n)
 {
 	int a = 0, rep, b;
