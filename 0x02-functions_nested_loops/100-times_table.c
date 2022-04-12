@@ -2,7 +2,7 @@
 
 /**
  * print_times_table - Prints the times table of the input,
- * @n : times table to use
+ * @x : times table to use
  * Return: void
  */
 
@@ -15,7 +15,7 @@ void print_times_table(int x)
 
 	while (a <= x)
 	{
-		for (b = 0; b <= n; b++)
+		for (b = 0; b <= x; b++)
 		{
 			rep = a * b;
 			if (a == 0)
@@ -28,7 +28,7 @@ void print_times_table(int x)
 			}
 			else if (rep < 100)
 			{
-				-putchar(' ');
+				_putchar(' ');
 				_putchar('0' + rep / 10);
 				_putchar('0' + rep % 10);
 			}
