@@ -2,7 +2,7 @@
 
 /**
  * main -entry point
- * Description: print_alphabet - print alphabet lowercase
+ * print_alphabet - entry point
  *
  * Return: Always
  */
