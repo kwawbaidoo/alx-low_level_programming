@@ -1,12 +1,11 @@
 #include "main.h"
 
 /**
- * print_times_table - Prints the times table of the input,
+ * times_table - Prints times table
  * @x : times table to use
  * Return: void
  */
-
-void print_times_table(int x)
+void times_table(int x)
 {
 	int a = 0, rep, b;
 	
