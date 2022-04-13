@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - main
+ * main - entry point, check for positive or negative
  * Return: 0
  */
 
