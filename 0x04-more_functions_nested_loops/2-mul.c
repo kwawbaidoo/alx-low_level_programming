@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * mul - funtion that multiplies twointegers.
+ * mul - funtion that multiplies two integers.
  * @a: first input value to check
  * @b: second input value to check
  * Return: int
@@ -12,5 +12,5 @@ int mul(int a, int b)
 	int x;
 
 		x = a * b;
-	return (a * b);
+	return (x);
 }
