@@ -4,10 +4,10 @@
  * @str: value that will be evaluated
  * Return: void
  */
-void puts-half(cha *str)
+void puts-half(char *str)
 {
 	int i, last;
-	
+
 	i = 0;
 	while (str[i] != '\0')
 	{
