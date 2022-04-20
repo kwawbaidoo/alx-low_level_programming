@@ -3,7 +3,7 @@
 #include <time.h>
 #include <stdlib.h>
 /**
- * my task
+ *
  */
 int main(void)
 {
@@ -11,6 +11,6 @@ int main(void)
 
 	srand(time(0));
 	num = rand();
-	printf("%i\n", num);
+	printf("%d\n", num);
 	return (0);
 }
