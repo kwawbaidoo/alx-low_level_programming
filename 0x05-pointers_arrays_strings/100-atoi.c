@@ -16,7 +16,7 @@ int is_numerical(unsigned int n)
 int _atoi(char *s)
 {
 	unsigned int number, i;
-	sign = 1;
+	int sign = 1;
 	number = 0;
 
 	for (i = 0; s[i] != '\0'; i++)
