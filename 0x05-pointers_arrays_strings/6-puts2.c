@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * put2 - print cahracter of string
+ * puts2 - print cahracter of string
  * @str:  pointer to be evaluated
  * Return: not
  */
-void put2(char *str)
+void puts2(char *str)
 {
 	int len = 0;
 	int l = 0;
