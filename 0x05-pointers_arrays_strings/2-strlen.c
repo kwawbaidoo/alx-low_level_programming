@@ -6,7 +6,7 @@
  * @s: value to return it length
  * Return: not
  */
- int _strlen(char *s)
+int _strlen(char *s)
 {
 	int len = 0;
 
