@@ -7,7 +7,7 @@
  * @b: decond value to swap
  * Return: not
  */
-void sawp_int(int *a, int *b)
+void swap_int(int *a, int *b)
 {
 	int n = *a;
 	*a = *b;
