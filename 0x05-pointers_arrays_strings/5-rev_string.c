@@ -13,7 +13,7 @@ void rev_string(char *s)
 	int x;
 	char n;
 
-	while (*y != '\n')
+	while (*y != '\0')
 	{
 		y++;
 		len++;
