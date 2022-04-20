@@ -8,10 +8,12 @@
  */
  int _strlen(char *s)
 {
-	int strlength = 0;
+	int len = 0;
 
-	strlength = *s;
-
-	_putchar("Length of *s:  %d \n", strlength);
-	return (Strlength);
+	while (*s != '\0')
+	{
+		s++;
+		len++;
+	}
+	return (len);
 }
