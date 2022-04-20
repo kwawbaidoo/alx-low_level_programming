@@ -19,9 +19,9 @@ void rev_string(char *s)
 		len++;
 	}
 	z = len - 1;
-	for ( ; e> ((1/2) + 1); e++)
+	for ( ; e > ((z / 2) + 1); e++)
 	{
-		x = (1 -e);
+		x = (z - e);
 		n = s[e];
 		s[e] = [x];
 		s[x] = n;
