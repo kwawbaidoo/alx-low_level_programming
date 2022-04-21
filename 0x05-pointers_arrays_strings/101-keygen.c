@@ -10,7 +10,7 @@ int main(void)
 	int num;
 
 	srand(time(NULL));
-	num = srand();
+	num = rand();
 	printf("%u\n", num);
 	return (0);
 }
