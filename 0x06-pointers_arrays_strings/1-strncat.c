@@ -1,6 +1,6 @@
-#include "main.h"
+i#include "main.h"
 /**
- * _strcat - concatenate two strings
+ * _strncat - concatenate two strings
  * using at most n byte from src
  * @dest: input value
  * @src: input value
