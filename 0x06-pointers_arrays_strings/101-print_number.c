@@ -7,8 +7,6 @@
  */
 void print_number(int n)
 {
-	void print_number(int n)
-{
   int power, neg, hold;
 
   neg = 0;
@@ -44,5 +42,4 @@ void print_number(int n)
       power = 0;
     }
   }
-}
 }
