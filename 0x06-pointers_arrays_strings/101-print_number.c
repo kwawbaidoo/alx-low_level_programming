@@ -1,31 +1,24 @@
 #include "main.h"
 
 /**
- *print_number - print a number using _putchar.
- *@n: the number to be printed.
+ * print_number - print an integer
+ * @n: number to be printed
+ * Return: Always 0
  */
-
 void print_number(int n)
 {
-	unsigned int i = 1;
+	unsigned int n1;
+
+	n1 = n;
 
 	if (n < 0)
 	{
 		_putchar('-');
-		n *= -1;
+		n1 = -n;
 	}
-	if (n == 0)
-		_putchar('0');
-	else
+	if (n1 / 10 != 0)
 	{
-		while ((n / i) >= 10)
-			i *= 10;
-
-		while (i > 0)
-		{
-			_putchar((n / i) + '0');
-			n %= i;
-			i /= 10;
-		}
+		print_number(n1 / 10);
 	}
+	_putchar((n1 % 10) + '0');
 }
