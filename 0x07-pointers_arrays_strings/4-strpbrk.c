@@ -4,8 +4,8 @@
 /**
  * _strpbrk - locates the first occurence in the string s
  * @s: source string
- * @accept: set of bytes
- * Return: a pointer to the bytes in s that matches one of the bytes
+ * @accept: searching string
+ * Return: new string
  */
 char *_strpbrk(char *s, char *accept)
 {
@@ -15,7 +15,7 @@ char *_strpbrk(char *s, char *accept)
 	{
 		for (j = 0; *(accept + j); j++)
 		{
-		if (*(s + i) == *(accept + j))
+			if (*(s + i) == *(accept + j))
 			{
 				break;
 			}
@@ -25,5 +25,5 @@ char *_strpbrk(char *s, char *accept)
 			return (s + i);
 		}
 	}
-	return (0)
+	return (0);
 }
