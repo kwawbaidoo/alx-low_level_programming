@@ -30,7 +30,7 @@ char *_strstr(char *haystack, char *needle)
  * Return: 1 if there is coincidence otherwise 0
  */
 
-in coincidence(char *a, char *b)
+int coincidence(char *a, char *b)
 {
 	while (*b && *b == *a)
 	{
