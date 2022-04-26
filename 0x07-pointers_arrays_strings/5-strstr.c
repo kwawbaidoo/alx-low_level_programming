@@ -20,7 +20,7 @@ char *_strstr(char *haystack, char *needle)
 			haystack++;
 		}
 	}
-	return (0)
+	return (0);
 }
 
 /**
@@ -40,5 +40,5 @@ int coincidence(char *a, char *b)
 	if (*b == '\0')
 		return (1);
 	else
-		return (0)
+		return (0);
 }
