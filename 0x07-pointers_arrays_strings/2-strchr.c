@@ -7,7 +7,7 @@
  * Return: a pointer to a character found
  */
 
-char *_strchr(char *s, char char c)
+char *_strchr(char *s, char c)
 {
 	while (*s != '\0')
 	{
@@ -15,12 +15,12 @@ char *_strchr(char *s, char char c)
 		{
 			return (s);
 		}
-		else if (*(s + 1) == c)
-		{
-			return (s + 1);
-		}
-		s++;
+		else
+			s++;
 	}
-	return (s + 1);
-	return (NULL);
+	if (*s == c)
+		return (s);
+
+	else
+		return (0);
 }
