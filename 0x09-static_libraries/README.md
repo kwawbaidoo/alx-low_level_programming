@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-0x09. C - Static libraries
-=======
 # 0x09. C - Static libraries
 
 
@@ -218,4 +215,3 @@ julien@ubuntu:~/0x09. Static Librairies$
 
 ---
 
->>>>>>> e28dfdc484137d3b8951e1770cb1126408dd46e6
