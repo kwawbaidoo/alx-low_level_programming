@@ -10,6 +10,7 @@
 int int_index(int *array, int size, int (*cmp)(int))
 {
 	int elem;
+
 	if (size <= 0 || array == NULL || cmp == NULL)
 		return (-1);
 	for (elem = 0; elem < size; elem++)
