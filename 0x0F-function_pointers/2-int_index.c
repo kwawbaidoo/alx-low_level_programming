@@ -3,20 +3,21 @@
 /**
  * int_index - searches an integer
  * @array: pointer array
- * @size: number of elements in array
+ * @size: number elements in array
  * @cmp: is a pointer to the function to be used to compare values
- * Return: first element index, on succes or return -1
+ * Return: first element index,on succes or return -1
  **/
 int int_index(int *array, int size, int (*cmp)(int))
 {
-	int value;
+	int i;
 
-	if (size <= 0 array == NULL cmp == NULL)
+	if (size <= 0 || array == NULL || cmp == NULL)
 		return (-1);
-	for (value = 0; value < size; value++)
+	for (i = 0; i < size; i++)
 	{
-		if (cmp(array[value] != 0)
-			return (value);
+		if (cmp(array[i]) != 0)
+			return (i);
+
 	}
-	return (-1);
+		return (-1);
 }
