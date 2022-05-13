@@ -1,3 +1,5 @@
+#include <stdio.>
+#include "stdlib.h"
 #include "function_pointer.h"
 
 /**
