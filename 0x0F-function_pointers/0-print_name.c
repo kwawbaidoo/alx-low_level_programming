@@ -8,11 +8,11 @@
  */
 void print_name(char *name, void (*f)(char *))
 {
-	_putchar("My name is %s\n", name);
+	return name;
 }
 
 int main(void)
 {
-	print_name("Francis", print_name);
+	print_name("%s\n", f("Francis"));
 	return (0);
 }
