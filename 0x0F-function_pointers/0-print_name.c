@@ -10,11 +10,6 @@
  */
 void print_name(char *name, void (*f)(char *))
 {
-	return name;
-}
-
-int main(void)
-{
-	print_name("%s\n", f("Francis"));
-	return (0);
+	if (name != NULL && *name != '\0' && f != NULL)
+		f(name);
 }
