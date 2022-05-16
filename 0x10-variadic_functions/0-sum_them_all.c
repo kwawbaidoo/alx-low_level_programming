@@ -1,5 +1,4 @@
 #include "variadic_functions.h"
-
 /**
  * sum_them_all - function that sum of all its parameters
  * @n: How many variables will be inserted in the function
