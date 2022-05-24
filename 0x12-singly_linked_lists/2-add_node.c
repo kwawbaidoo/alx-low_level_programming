@@ -3,7 +3,8 @@
 /**
  * add_node - function that adds a new node
  * at the beginning of a list_t list.
- * @head: Parameter with the element str in
+ * @head: Parameter with the head node
+ * @str: parameter with the element str in
  * the structure
  * Return: the head of the linked list
  */
