@@ -1,38 +1,51 @@
 #include "main.h"
-
 /**
- * create_file - creates a file
- * @filename: filename.
- * @text_content: content writed in the file.
- *
- * Return: 1 if it success. -1 if it fails.
+ * _strlen - funtion count len of char.
+ * @s: count string.
+ * Return: string.
  */
-int create_file(const char *filename, char *text_content)
+int _strlen(char *s)
 {
-	int fd;
-	int nletters;
-	int rwr;
+	int len = 0;
 
-	if (!filename)
-		return (-1);
+	while (s[len] != '\0')
+		len++;
+	return (len);
+}
+/**
+ * append_text_to_file - write after the file
+ * @filename: name of file.
+ * @text_content: text content.
+ * Return: 1 ok, -1 error.
+ */
+int append_text_to_file(const char *filename, char *text_content)
+{
+int file, len, x;
 
-	fd = open(filename, O_CREAT | O_WRONLY | O_TRUNC, 0600);
-
-	if (fd == -1)
-		return (-1);
-
-	if (!text_content)
-		text_content = "";
-
-	for (nletters = 0; text_content[nletters]; nletters++)
-		;
-
-	rwr = write(fd, text_content, nletters);
-
-	if (rwr == -1)
-		return (-1);
-
-	close(fd);
-
-	return (1);
+if (!filename)
+return (-1);
+file = open(filename, O_WRONLY | O_APPEND);
+if (file == -1)
+{
+return (-1);
+}
+if (!text_content)
+{
+if (close(file) == -1)
+{
+return (-1);
+}
+else
+{
+return (1);
+}
+}
+len = _strlen(text_content);
+x = write(file, text_content, len);
+if (x == -1)
+{
+return (-1);
+}
+close(file);
+return (1);
 }
